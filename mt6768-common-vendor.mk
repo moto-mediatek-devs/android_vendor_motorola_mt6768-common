@@ -247,6 +247,7 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libladder \
     libmbrainSDKv \
+    libmemsic \
     libmipc \
     libmmprofile \
     libmnetlink_v104 \
