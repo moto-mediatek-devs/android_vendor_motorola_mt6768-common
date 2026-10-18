@@ -235,6 +235,7 @@ PRODUCT_PACKAGES += \
     libaudioprimarydevicehalifclient \
     libaudiotoolkit_vendor \
     libaurisysdemo \
+    libawinic_mtk_aurisys \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
     libbluetooth_audio_session_aidl_mtk \

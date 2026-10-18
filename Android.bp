@@ -2047,6 +2047,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libawinic_mtk_aurisys",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libawinic_mtk_aurisys.so",
+            ],
+            shared_libs: [
+                "libtinyalsa",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbessound_hd_mtk_vendor",
     owner: "motorola",
     strip: {
